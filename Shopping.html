@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Form</title>
+</head>
+<style>
+    cite{
+        font-size: larger;
+        color: antiquewhite;
+    }
+    label{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+    }
+    h1{
+        color: antiquewhite;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    legend{
+        color: beige;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: larger;
+    }
+</style>
+<body style="background-image: url(images/shopping.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;">
+    <h1>Style Icon Shopping</h1>  
+    <cite>Do you want to be the next style icon purchase from us !</cite> 
+    <br>
+    <hr> 
+    
+    <div>  
+        <form class="wd" >  
+            <fieldset class="wd" style="width:10px">  
+               <legend>User basic information:</legend>  
+
+               <label for="fname">First Name</label><br>  
+               <input type="text" name="fname" id="fname"><br>  
+
+               <label for="lname">Last Name</label><br>  
+               <input type="text" name="lname" id="lname"><br> 
+
+               <label for="date">DOB</label><br>  
+               <input type="date" name="date" id="date"><br> 
+
+               <label for="mail">Enter Email</label><br>  
+               <input type="email" name="email" id="mail"><br><br>  
+
+            </fieldset><br>   
+         </form>  
+    </div> 
+
+        <div>
+            <form class="xd">  
+                <fieldset class="xd">  
+                   <legend>Complete Shipping Address</legend>  
+
+                   <label for="add">Street Address</label><br>  
+                   <input type="address" name="add" id="add"><br> 
+
+                   <label for="lname">Street Address Line 2</label><br>  
+                   <input type="address" name="lname" id="lname"><br>
+                   
+
+                   <label for="city">City</label><br>  
+                   <input type="text" name="city" id="city"> 
+
+                   <label for="state">State or Province</label>
+                   <input type="text" name="state" id="state"><br> 
+
+                   <label for="state">Postal / Zip Code</label><br>  
+                   <input type="text" name="state" id="state">
+
+                   <label for="state">Country</label> 
+                   <select>
+                      <option>India</option>
+                      <option>USA</option>
+                      <option>China</option>
+                      <option>Russia</option>
+                   </select>
+
+                </fieldset><br>   
+             </form>
+        </div>
+
+        <div>  
+            <form class="wd">  
+                <fieldset class="wd">  
+                   <legend>Rate Us</legend>  
+    
+                   <label for="rating">Rate from 1 to 5</label><br>  
+                   <input type="range" name="rating" id="rating"><br>   
+    
+                </fieldset><br>   
+             </form>  
+            </div> 
+            <label class="tx">Enter your feedback:</label><br>  
+            <textarea class="tx" cols="30"></textarea><br><br>  
+            <a href="Tshirt.html">
+                <input class="tx" type="Submit"><br> 
+            </a>
+</body>
+</html>
